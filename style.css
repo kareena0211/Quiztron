@@ -1,0 +1,242 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* <!-- ...................  heading ......................................... --> */
+
+header {
+  /* border: 2px solid; */
+  height: 64px;
+  width: 1285px;
+  padding: 16px 24px 16px 24px;
+  min-height: 64px;
+  min-width: auto;
+  margin-left: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.heading {
+  /* border: 2px dotted; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 32.0156px;
+}
+
+.head1 {
+  font-size: 24px;
+  color: #0e7490;
+  cursor: pointer;
+}
+
+.login-btn {
+  /* border: 2px solid; */
+  border: none;
+  height: 42.25px;
+  padding: 8px 22px 8px 22px;
+  font-family: Comfortaa;
+  font-size: 15px;
+  background-color: #bd5d78;
+  line-height: 26.25px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  cursor: pointer;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+
+.login-btn:hover {
+  background-color: #844154;
+}
+
+/* <!-- .....................  image container ..................................... --> */
+
+.image-container {
+  position: relative;
+  display: inline-block;
+}
+
+img {
+  height: 600px;
+  width: 1349px;
+}
+
+.text-overlay {
+  /* border :2px solid darkcyan; */
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  padding: 10px;
+}
+
+.text-overlay p {
+  height: 41.9844px;
+  width: 1031.03px;
+  font-family: "Poppins", sans-serif;
+  font-size: 34px;
+  line-height: 41.99px;
+  text-decoration: none solid rgb(255, 255, 255);
+  text-align: center;
+}
+/* .................................................................. */
+
+.box {
+  /* border: 2px solid red; */
+  height: 608px;
+  /* width: 1477px; */
+  margin: 0 auto;
+  padding: 80px;
+  text-align: center;
+}
+
+.category {
+  /* border: 2px solid; */
+  height: 42px;
+  width: 100%;
+  font-family: "Poppins", sans-serif;
+  font-size: 34px;
+  line-height: 42px;
+  text-align: center;
+}
+
+.boxes {
+  /* border: 2px solid blue; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.pic {
+  /* border: 2px solid fuchsia; */
+  height: 448px;
+  width: 46%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.main {
+  border: 1px solid gainsboro;
+  height: 360px;
+  width: 485px;
+  border-radius: 4px;
+}
+
+.main:hover {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 30px;
+}
+
+.Collage {
+  /* border: 2px solid saddlebrown; */
+  height: 246.391px;
+  width: 485.9px;
+}
+
+.content {
+  /* border: 2px solid darkblue; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 105.594px;
+  width: 480px;
+  padding: 0 16px 0 16px;
+}
+
+.info {
+  /* border: 2px solid darkcyan; */
+  height: 91.4375px;
+  width: 140.656px;
+}
+
+.view {
+  height: 36.5px;
+  width: 126.5px;
+  padding: 6px 16px 6px 16px;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24.5px;
+  background-color: #bd5d78;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.view:hover {
+  background-color: #0e7490;
+}
+
+h3 {
+  /* border: 2px solid red; */
+  height: 20px;
+  width: 140.656px;
+  margin: 19px 0 19px 0;
+  font-family: "Poppins", sans-serif;
+}
+
+p {
+  /* border: 2px solid violet; */
+  height: 18px;
+  width: 140.656px;
+  margin: 16px 0 16px 0;
+  font-family: "Poppins", sans-serif;
+}
+
+/* ...................................................... */
+
+footer {
+  /* border: 2px solid red; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 198.812px;
+  width: 1079.19px;
+  border-top: 1px solid #0e7490;
+  margin: 48px 0 0 125px;
+  padding: 32px 0 0 0;
+}
+
+h2 {
+  display: block;
+  /* border: 2px solid violet; */
+  height: 27px;
+  width: 200.75px;
+  margin: 20px 0 20px 0;
+  color: #0e7490;
+  font-family: "Poppins", sans-serif;
+
+}
+
+.flex-items {
+  /* border: 2px solid darkblue; */
+  display: flex;
+  justify-content: space-evenly;
+  height: 84px;
+  width: 1079.19px;
+  padding: 0 0 48px 0;
+}
+
+.para {
+  /* border: 2px solid gold; */
+  height: 18px;
+  width: 70.0469px;
+  margin: 16px 0 16px 0;
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+  color: #0e7490;
+  cursor: pointer;
+}
+
+.para:hover {
+  text-decoration: underline;
+}
